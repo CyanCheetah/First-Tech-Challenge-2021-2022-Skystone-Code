@@ -31,7 +31,7 @@ import com.qualcomm.robotcore.util.Range;
 import com.qualcomm.robotcore.hardware.DcMotor.ZeroPowerBehavior;
 @Autonomous
 
-public class CyanSucks extends LinearOpMode{
+public class CyanRocks extends LinearOpMode{
 
     private void PIDController(double[] pwr, DcMotor[] mtrs, int[] tarPos) {  //needs brake, runwithoutencoder, and reverse
         double r = getRuntime();
